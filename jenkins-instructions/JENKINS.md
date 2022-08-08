@@ -26,4 +26,7 @@ sudo docker run -p 8080:8080 -p 50000:50000 -v /var/jenkins_home:/var/jenkins_ho
 ```
 sudo cat /var/jenkins_home/secrets/initialAdminPassword
 ```
+- Install suggested plugins
+
 - A screen with “Create First admin User prompt” will appear. You will need to enter a username, password, full name and email address.
+<img src='./images/create first admin.png' alt='creating first admin user'>
